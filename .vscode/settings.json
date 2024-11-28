@@ -19,8 +19,4 @@
         "**/Thumbs.db": true,
         "**/__pycache__": true
     },
-    "[html]": {
-        "editor.defaultFormatter": "monosans.djlint",
-        "editor.formatOnSave": true
-    }
 }
