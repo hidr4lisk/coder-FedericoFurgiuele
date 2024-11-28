@@ -1,11 +1,16 @@
-﻿# coder-FedericoFurgiuele
+﻿#Curso de Python
 
-# Instalar UV -
-    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-# Iniciar el proyecto en UV
-    uv init 
-# Creación del Entorno Virtual
-    uv venv
-# Agregamos Django
-    uv add django
-# 
+## Comisión 
+
+Comisión: 60095
+
+Profesor: Esteban Acevedo
+
+Linkedin: linkedin.com/in/esteban-acevedo-aberastain
+
+## Alumno
+
+Nombre: Federico Martín Furgiuele
+
+Linkedin: https://www.linkedin.com/in/federico-furgiuele/
+
