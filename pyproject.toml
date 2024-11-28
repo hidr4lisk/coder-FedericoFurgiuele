@@ -29,3 +29,8 @@ blank_line_before_tag="block"
 blank_line_after_tag="load,extends,endblock"
 format_attribute_template_tags=true
 line_break_after_multiline_tag=false
+
+[dependency-groups]
+dev = [
+    "djlint>=1.36.2",
+]
