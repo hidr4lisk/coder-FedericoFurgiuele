@@ -33,4 +33,5 @@ line_break_after_multiline_tag=false
 [dependency-groups]
 dev = [
     "djlint>=1.36.2",
+    "ipython>=8.29.0",
 ]
