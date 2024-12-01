@@ -38,3 +38,14 @@ def tirar_dados(request):
         'fecha': datetime.now()
     }
     return render(request, 'core/dados.html', context=datos)
+
+def ejercicio1 (request):
+    nombre = input("Ingrese Nombre: ")
+    apellido = input("Ingrese Apellido: ")
+
+    datos = {
+        'title': 'Ejercicio',
+        'nombre': nombre,
+        'apellido': apellido
+    }
+    return render(request, 'core/ejercicio1.html', context=datos)
