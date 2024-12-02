@@ -49,3 +49,7 @@ def ejercicio1 (request):
         'apellido': apellido
     }
     return render(request, 'core/ejercicio1.html', context=datos)
+
+def mostrar_notas(request):
+    lista_de_notas = [1,2,3,4,5,6,7,8,9,10]
+    return render(request, 'core/notas.html', {'notas': lista_de_notas})

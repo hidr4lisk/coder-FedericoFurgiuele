@@ -28,4 +28,5 @@ urlpatterns = [
     path('', views.index),
     path('tirar-dado/', views.tirar_dados),
     path('ejercicio1/', views.ejercicio1),
+    path('notas/', views.mostrar_notas),
 ]
