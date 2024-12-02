@@ -18,6 +18,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from cliente.views import ver_cliente
 from core import views
 
 urlpatterns = [
@@ -30,4 +31,5 @@ urlpatterns = [
     path('ejercicio1/', views.ejercicio1),
     path('notas/', views.mostrar_notas),
     path('respondiendo_template/', views.ejercicio_2),
+    path('cliente/', ver_cliente),
 ]
