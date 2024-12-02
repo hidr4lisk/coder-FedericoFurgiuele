@@ -40,8 +40,10 @@ def tirar_dados(request):
     return render(request, 'core/dados.html', context=datos)
 
 def ejercicio1 (request):
-    nombre = input("Ingrese Nombre: ")
-    apellido = input("Ingrese Apellido: ")
+    #nombre = input("Ingrese Nombre: ")
+    #apellido = input("Ingrese Apellido: ")
+    nombre = "Acá había un input"
+    apellido = "Acá También"
 
     datos = {
         'title': 'Ejercicio',
