@@ -18,9 +18,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from cliente.views import index, pais_list, cliente_list
+from cliente.views import cliente_list, index, pais_list
 from core import views
-
 
 urlpatterns = [
     path('admin/', admin.site.urls),
